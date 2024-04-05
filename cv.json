@@ -189,46 +189,41 @@
   "projects": [{
     "name": "Future World Shop",
     "isActive": false,
-    "description": "Description...",
-    "highlights": [
-      "Won award at AIHacks 2016"
-    ],
-    "url": "https://future-world-shop-beryl.vercel.app/"
+    "description": "Simulación de tienda virtual con estilo futurista",
+    "highlights": [],
+    "url": "https://future-world-shop-beryl.vercel.app/",
+    "githubUrl": "https://github.com/santiago0451/future-world-shop"
   },
   {
-    "name": "Project",
+    "name": "The Library",
     "isActive": false,
-    "description": "Description...",
-    "highlights": [
-      "Won award at AIHacks 2016"
-    ],
-    "url": "https://project.com/"
+    "description": "Distintas páginas donde se evidencia el uso de una API",
+    "highlights": [],
+    "url": "https://the-library-delta.vercel.app/",
+    "githubUrl": "https://github.com/santiago0451/thelab/tree/main/library"
   },
   {
-    "name": "Project",
+    "name": "Pokedex",
     "isActive": false,
-    "description": "Description...",
-    "highlights": [
-      "Won award at AIHacks 2016"
-    ],
-    "url": "https://project.com/"
+    "description": "Selecciona un pokemón y aprende de él",
+    "highlights": [],
+    "url": "https://pokedex-ten-tan-41.vercel.app/",
+    "githubUrl": "https://github.com/santiago0451/thelab/tree/main/pokedex"
   },
   {
-    "name": "Project",
+    "name": "Gif Finder",
     "isActive": false,
-    "description": "Description...",
-    "highlights": [
-      "Won award at AIHacks 2016"
-    ],
-    "url": "https://project.com/"
+    "description": "Buscador de gifs funcional, uso de API",
+    "highlights": [],
+    "url": "https://gif-finder-pied.vercel.app/",
+    "githubUrl": "https://github.com/santiago0451/gif-finder"
   },
   {
-    "name": "Project",
+    "name": "ToDo Machine",
     "isActive": false,
-    "description": "Description...",
-    "highlights": [
-      "Won award at AIHacks 2016"
-    ],
-    "url": "https://project.com/"
+    "description": "Página para listar cosas por hacer",
+    "highlights": [],
+    "url": "https://todo-machine-wine.vercel.app/",
+    "githubUrl": "https://github.com/santiago0451/todo-machine"
   }]
 }

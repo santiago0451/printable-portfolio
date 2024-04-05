@@ -2,12 +2,14 @@
 import Section from "@/components/Section.astro";
 
 import { projects } from "@cv";
+
+import GitHub from "@/icons/GitHub.astro";
 ---
 
 <Section title="Proyectos">
   <ul>
     {
-      projects.map(({ url, description, highlights, name, isActive }) => {
+      projects.map(({ url, description, githubUrl, name, isActive }) => {
         return (
           <li>
             <article>
@@ -21,9 +23,10 @@ import { projects } from "@cv";
                 <p>{description}</p>
               </header>
               <footer>
-                {highlights.map((highlight) => {
-                  return <span>{highlight}</span>;
-                })}
+                <a href={githubUrl}>
+                  <GitHub />
+                  <p id="github">GitHub</p>
+                </a>
               </footer>
             </article>
           </li>
@@ -64,22 +67,25 @@ import { projects } from "@cv";
   article p {
     font-size: 0.75rem;
     line-height: 1.2rem;
-    margin-bottom: 4px;
   }
   article h3 span {
     color: rgb(0, 188, 47);
   }
   footer {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 4px;
-    font-size: 0.6rem;
+    display: inline-flex;
   }
-  footer span {
-    border-radius: 6px;
+  footer a {
+    align-items: center;
     background: #eee;
-    color: #444;
-    font-size: 0.6rem;
+    border-radius: 6px;
+    color: black;
+    display: flex;
+    gap: 4px;
+    padding: 0.2rem 0.6rem;
+  }
+  footer a p {
+    color: black;
+    font-size: 0.8rem;
     font-weight: 500;
     padding: 0.2rem 0.6rem;
   }
