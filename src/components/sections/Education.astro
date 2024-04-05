@@ -8,7 +8,14 @@ import { education } from "@cv";
   <ul>
     {
       education.map(
-        ({ institution, startDate, endDate, area, courses, studyType }) => {
+        ({
+          institution,
+          startDate,
+          endDate,
+          area,
+          courses: [{ name, courseUrl }],
+          studyType,
+        }) => {
           const startYear = new Date(startDate).getFullYear();
           const endYear =
             endDate != null ? new Date(endDate).getFullYear() : "Actual";
@@ -28,7 +35,7 @@ import { education } from "@cv";
 
                 <footer>
                   <p>{area}</p>
-                  <p>{courses}</p>
+                  <a href={courseUrl}>{name}</a>
                 </footer>
               </article>
             </li>

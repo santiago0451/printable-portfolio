@@ -58,20 +58,26 @@
     "url": "https://platzi.com/new-home/",
     "area": "Educación superior",
     "studyType": "Front-end development",
-    "startDate": "2021",
-    "endDate": "2025",
+    "startDate": "2020",
+    "endDate": "2024",
     "score": "4.0",
     "courses": [
-      "DB1101 - Basic SQL"
-    ]
+    {
+      "name": "Curso de React.js",
+      "courseUrl": "https://platzi.com/cursos/react/"
+    },
+    {
+      "name": "Curso Profesional de Git y GitHub",
+      "courseUrl": "https://platzi.com/cursos/git-github/"
+    }]
   },
   {
     "institution": "Colegio Mayor de Nuestra Señora",
     "url": "https://www.colsenora.edu.co/",
     "area": "Educación media",
     "studyType": "Bachiller",
-    "startDate": "2010",
-    "endDate": "2021",
+    "startDate": "2009",
+    "endDate": "2020",
     "score": "4.0",
     "courses": []
   }],
