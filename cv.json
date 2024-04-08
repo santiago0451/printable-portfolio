@@ -4,9 +4,8 @@
     "label": "Front-end developer",
     "image": "/me.webp",
     "email": "santiagowe98@gmail.com",
-    "phone": "(321) 343-5577",
     "url": "",
-    "summary": "A summary of John Doe…",
+    "summary": "Tienen que ser 3 líneas",
     "location": {
       "address": "",
       "postalCode": "170006",
@@ -58,7 +57,7 @@
     "url": "https://platzi.com/new-home/",
     "area": "Educación superior",
     "studyType": "Front-end development",
-    "startDate": "2020",
+    "startDate": "2022",
     "endDate": "2024",
     "score": "4.0",
     "courses": [
@@ -67,17 +66,29 @@
       "courseUrl": "https://platzi.com/cursos/react/"
     },
     {
+      "name": "Curso de Next.js 14",
+      "courseUrl": "https://platzi.com/cursos/nextjs-14/"
+    },
+    {
+      "name": "Curso de Frontend Developer",
+      "courseUrl": "https://platzi.com/cursos/frontend-developer/"
+    },
+    {
       "name": "Curso Profesional de Git y GitHub",
       "courseUrl": "https://platzi.com/cursos/git-github/"
-    }]
-  },
+    },
+    {
+      "name": "Fundamentos de Ingeniería de Software",
+      "courseUrl": "https://platzi.com/cursos/ingenieria/"
+    }
+  ]},
   {
     "institution": "Colegio Mayor de Nuestra Señora",
     "url": "https://www.colsenora.edu.co/",
     "area": "Educación media",
     "studyType": "Bachiller",
-    "startDate": "2009",
-    "endDate": "2020",
+    "startDate": "2010",
+    "endDate": "2021",
     "score": "4.0",
     "courses": []
   }],
