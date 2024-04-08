@@ -15,7 +15,11 @@ import GitHub from "@/icons/GitHub.astro";
             <article>
               <header>
                 <h3>
-                  <a href={url} title={`Ver el proyecto ${name}`}>
+                  <a
+                    href={url}
+                    title={`Ver el proyecto ${name}`}
+                    target="_blank"
+                  >
                     {name}
                   </a>
                   {isActive && <span>&bull;</span>}
@@ -23,7 +27,7 @@ import GitHub from "@/icons/GitHub.astro";
                 <p>{description}</p>
               </header>
               <footer>
-                <a href={githubUrl}>
+                <a href={githubUrl} target="_blank" class="no-print">
                   <GitHub />
                   <p id="github">GitHub</p>
                 </a>
@@ -80,13 +84,13 @@ import GitHub from "@/icons/GitHub.astro";
     border-radius: 6px;
     color: black;
     display: flex;
-    gap: 4px;
+    gap: 1px;
     padding: 0.2rem 0.6rem;
   }
   footer a p {
     color: black;
     font-size: 0.8rem;
-    font-weight: 500;
-    padding: 0.2rem 0.6rem;
+    font-weight: 540;
+    padding: 0.2rem 0.4rem;
   }
 </style>
