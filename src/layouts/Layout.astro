@@ -4,13 +4,19 @@ interface Props {
 }
 
 const { title } = Astro.props;
+
+import { basics } from "@cv_english";
+const { name } = basics;
 ---
 
 <!doctype html>
 <html lang="es">
   <head>
     <meta charset="UTF-8" />
-    <meta name="description" content="Astro description" />
+    <meta
+      name="description"
+      content=`See the minimalist portfolio of ${name}`
+    />
     <meta name="viewport" content="width=device-width" />
     <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
     <meta name="generator" content={Astro.generator} />
