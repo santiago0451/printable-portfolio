@@ -6,6 +6,9 @@
       "@cv" :[
         "./cv.json"
       ],
+      "@cv_english" :[
+        "./cv_english.json"
+      ],
       "@/*": [
         "src/*"
       ]

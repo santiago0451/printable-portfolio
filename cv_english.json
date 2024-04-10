@@ -55,38 +55,38 @@
   "education": [{
     "institution": "Platzi",
     "url": "https://platzi.com/new-home/",
-    "area": "Educación superior",
+    "area": "College education",
     "studyType": "Front-end development",
     "startDate": "2022",
     "endDate": "2024",
     "score": "4.0",
     "courses": [
     {
-      "name": "Curso de React.js",
+      "name": "React.js Course",
       "courseUrl": "https://platzi.com/cursos/react/"
     },
     {
-      "name": "Curso de Next.js 14",
+      "name": "Next.js 14 Course",
       "courseUrl": "https://platzi.com/cursos/nextjs-14/"
     },
     {
-      "name": "Curso de Frontend Developer",
+      "name": "Frontend Developer Course",
       "courseUrl": "https://platzi.com/cursos/frontend-developer/"
     },
     {
-      "name": "Curso Profesional de Git y GitHub",
+      "name": "Profesional Course of Git and GitHub",
       "courseUrl": "https://platzi.com/cursos/git-github/"
     },
     {
-      "name": "Fundamentos de Ingeniería de Software",
+      "name": "Fundamentals of software engineering",
       "courseUrl": "https://platzi.com/cursos/ingenieria/"
     }
   ]},
   {
     "institution": "Colegio Mayor de Nuestra Señora",
     "url": "https://www.colsenora.edu.co/",
-    "area": "Educación media",
-    "studyType": "Bachiller",
+    "area": "High school education",
+    "studyType": "High school graduate",
     "startDate": "2009",
     "endDate": "2020",
     "score": "4.0",
@@ -116,63 +116,63 @@
       "name": "HTML",
       "level": "",
       "keywords": [
-        "Desarrollo Web", "Front end"
+        "Web development", "Front end"
       ]
     },
     {
       "name": "CSS",
       "level": "",
       "keywords": [
-        "Desarrollo Web", "Front end", "Diseño Responsive"
+        "Web development", "Front end", "Responsive design"
       ]
     },
     {
       "name": "JavaScript",
       "level": "",
       "keywords": [
-        "Desarrollo Web", "Front end"
+        "Web development", "Front end"
       ]
     },
     {
       "name": "TypeScript",
       "level": "",
       "keywords": [
-        "Desarrollo Web", "Frontend", "JavaScript Superset"
+        "Web development", "Front end"
       ]
     },
     {
       "name": "Git",
       "level": "",
       "keywords": [
-        "Control de Versiones", "Colaboración", "Código Fuente"
+        "Version control", "Collaboration", "Source code"
       ]
     },
     {
       "name": "React",
       "level": "",
       "keywords": [
-        "Desarrollo Web", "Frontend", "JavaScript Library", "UI"
+        "Web development", "Front end", "JavaScript Library", "UI"
       ]
     },
     {
       "name": "Next.js",
       "level": "",
       "keywords": [
-        "Desarrollo Web", "Frontend", "React Framework", "SSR", "Static Generation"
+        "Web development", "Front end", "React Framework", "SSR", "Static Generation"
       ]
     },
     {
       "name": "GitHub",
       "level": "",
       "keywords": [
-        "Control de Versiones", "Colaboración", "Código Fuente", "Git"
+        "Version control", "Collaboration", "Source code", "Git"
       ]
     },
     {
       "name": "Tailwind",
       "level": "",
       "keywords": [
-        "Desarrollo Web", "Frontend", "CSS Framework", "Diseño Responsive"
+        "Web development", "Front end", "CSS Framework", "Responsive design"
       ]
     },
     
@@ -180,16 +180,16 @@
       "name": "Node",
       "level": "",
       "keywords": [
-        "Desarrollo Web", "JavaScript", "Servidor"
+        "Web development", "JavaScript", "Server"
       ]
     }
   ],
   "languages": [{
-    "language": "Español",
-    "fluency": "Hablante nativo"
+    "language": "Spanish",
+    "fluency": "Native speaker"
   },
   {
-    "language": "Inglés",
+    "language": "English",
     "fluency": "B2"
   }],
   "interests": [{
@@ -206,7 +206,7 @@
   "projects": [{
     "name": "Future World Shop",
     "isActive": false,
-    "description": "Simulación de tienda virtual con estilo futurista",
+    "description": "Simulation of an e-shop with futuristic style",
     "highlights": [],
     "url": "https://future-world-shop-beryl.vercel.app/",
     "githubUrl": "https://github.com/santiago0451/future-world-shop"
@@ -214,7 +214,7 @@
   {
     "name": "The Library",
     "isActive": false,
-    "description": "Distintas páginas donde se evidencia el uso de una API",
+    "description": "Different pages where you can see the use of an API",
     "highlights": [],
     "url": "https://the-library-delta.vercel.app/",
     "githubUrl": "https://github.com/santiago0451/thelab/tree/main/library"
@@ -222,7 +222,7 @@
   {
     "name": "Pokedex",
     "isActive": false,
-    "description": "Selecciona un Pokemón y aprende de él",
+    "description": "Pick a Pokemon and learn about it",
     "highlights": [],
     "url": "https://pokedex-ten-tan-41.vercel.app/",
     "githubUrl": "https://github.com/santiago0451/thelab/tree/main/pokedex"
@@ -230,7 +230,7 @@
   {
     "name": "Gif Finder",
     "isActive": false,
-    "description": "Buscador de gifs funcional, uso de API",
+    "description": " A gif finder totally working and it uses an API",
     "highlights": [],
     "url": "https://gif-finder-pied.vercel.app/",
     "githubUrl": "https://github.com/santiago0451/gif-finder"
@@ -238,7 +238,7 @@
   {
     "name": "ToDo Machine",
     "isActive": false,
-    "description": "Página para listar cosas por hacer",
+    "description": "Page to list things to do",
     "highlights": [],
     "url": "https://todo-machine-wine.vercel.app/",
     "githubUrl": "https://github.com/santiago0451/todo-machine"
