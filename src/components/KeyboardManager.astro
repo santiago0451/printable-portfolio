@@ -96,12 +96,6 @@ const profilesInfo = profiles.map(({ network, url }) => {
 </script>
 
 <style>
-  @media print {
-    ninja-keys {
-      display: none !important;
-    }
-  }
-
   @keyframes fadeIn {
     from {
       opacity: 0;
@@ -128,10 +122,23 @@ const profilesInfo = profiles.map(({ network, url }) => {
     animation-timeline: --revealing;
     animation-range: entry 100% cover 10%;
   }
+
   kbd {
     background: #eee;
     border-radius: 4px;
     padding: 2px 4px;
     font-size: 12px;
+  }
+
+  @media print {
+    ninja-keys {
+      display: none !important;
+    }
+  }
+
+  @media (max-width: 933px) {
+    footer {
+      display: none !important;
+    }
   }
 </style>

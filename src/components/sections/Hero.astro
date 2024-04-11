@@ -140,4 +140,24 @@ const printInfo = [email, linkedInUrl].filter(Boolean).join(" • ");
     background: #eee;
     border: 1px solid #ddd;
   }
+
+  @media (max-width: 603px) {
+    .container {
+      flex-direction: column;
+    }
+    .info {
+      order: 2;
+      padding-right: 0;
+      text-align: center;
+    }
+    .info span {
+      display: block;
+    }
+    .info footer.no-print {
+      justify-content: center;
+    }
+    figure {
+      order: 1;
+    }
+  }
 </style>
