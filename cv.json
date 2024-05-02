@@ -13,234 +13,245 @@
       "countryCode": "CO",
       "region": "Colombia"
     },
-    "profiles": [{
-      "network": "LinkedIn",
-      "username": "Santiago Aguirre Giraldo",
-      "url": "https://www.linkedin.com/in/santiago-aguirre-giraldo/"
-    },
-    {
-      "network": "GitHub",
-      "username": "santiago0451",
-      "url": "https://github.com/santiago0451"
-    },
-    {
-      "network": "X",
-      "username": "Santiag80812547",
-      "url": "https://twitter.com/Santiag80812547"
-    }
+    "profiles": [
+      {
+        "network": "LinkedIn",
+        "username": "Santiago Aguirre Giraldo",
+        "url": "https://www.linkedin.com/in/santiago-aguirre-giraldo/"
+      },
+      {
+        "network": "GitHub",
+        "username": "santiago0451",
+        "url": "https://github.com/santiago0451"
+      },
+      {
+        "network": "X",
+        "username": "Santiag80812547",
+        "url": "https://twitter.com/Santiag80812547"
+      }
     ]
   },
-  "work": [{
-    "name": "Company",
-    "position": "President",
-    "url": "https://company.com",
-    "startDate": "2013-01-01",
-    "endDate": "2014-01-01",
-    "summary": "Description…",
-    "highlights": [
-      "Started the company"
-    ]
-  }],
-  "volunteer": [{
-    "organization": "Organization",
-    "position": "Volunteer",
-    "url": "https://organization.com/",
-    "startDate": "2012-01-01",
-    "endDate": "2013-01-01",
-    "summary": "Description…",
-    "highlights": [
-      "Awarded 'Volunteer of the Month'"
-    ]
-  }],
-  "education": [{
-    "institution": "Platzi",
-    "url": "https://platzi.com/new-home/",
-    "area": "Educación superior",
-    "studyType": "Front-end development",
-    "startDate": "2022",
-    "endDate": "2024",
-    "score": "4.0",
-    "courses": [
+  "work": [
     {
-      "name": "Curso de React.js",
-      "courseUrl": "https://platzi.com/cursos/react/"
-    },
-    {
-      "name": "Curso de Next.js 14",
-      "courseUrl": "https://platzi.com/cursos/nextjs-14/"
-    },
-    {
-      "name": "Curso de Frontend Developer",
-      "courseUrl": "https://platzi.com/cursos/frontend-developer/"
-    },
-    {
-      "name": "Curso Profesional de Git y GitHub",
-      "courseUrl": "https://platzi.com/cursos/git-github/"
-    },
-    {
-      "name": "Fundamentos de Ingeniería de Software",
-      "courseUrl": "https://platzi.com/cursos/ingenieria/"
+      "name": "Company",
+      "position": "President",
+      "url": "https://company.com",
+      "startDate": "2013-01-01",
+      "endDate": "2014-01-01",
+      "summary": "Description…",
+      "highlights": ["Started the company"]
     }
-  ]},
-  {
-    "institution": "Colegio Mayor de Nuestra Señora",
-    "url": "https://www.colsenora.edu.co/",
-    "area": "Educación media",
-    "studyType": "Bachiller",
-    "startDate": "2009",
-    "endDate": "2020",
-    "score": "4.0",
-    "courses": []
-  }],
-  "awards": [{
-    "title": "Award",
-    "date": "2014-11-01",
-    "awarder": "Company",
-    "summary": "There is no spoon."
-  }],
-  "certificates": [{
-    "name": "Certificate",
-    "date": "2021-11-07",
-    "issuer": "Company",
-    "url": "https://certificate.com"
-  }],
-  "publications": [{
-    "name": "Publication",
-    "publisher": "Company",
-    "releaseDate": "2014-10-01",
-    "url": "https://publication.com",
-    "summary": "Description…"
-  }],
+  ],
+  "volunteer": [
+    {
+      "organization": "Organization",
+      "position": "Volunteer",
+      "url": "https://organization.com/",
+      "startDate": "2012-01-01",
+      "endDate": "2013-01-01",
+      "summary": "Description…",
+      "highlights": ["Awarded 'Volunteer of the Month'"]
+    }
+  ],
+  "education": [
+    {
+      "institution": "Platzi",
+      "url": "https://platzi.com/new-home/",
+      "area": "Educación superior",
+      "studyType": "Front-end development",
+      "startDate": "2022",
+      "endDate": "2024",
+      "score": "4.0",
+      "courses": [
+        {
+          "name": "Curso de React.js",
+          "courseUrl": "https://platzi.com/cursos/react/"
+        },
+        {
+          "name": "Curso de Next.js 14",
+          "courseUrl": "https://platzi.com/cursos/nextjs-14/"
+        },
+        {
+          "name": "Curso de Frontend Developer",
+          "courseUrl": "https://platzi.com/cursos/frontend-developer/"
+        },
+        {
+          "name": "Curso Profesional de Git y GitHub",
+          "courseUrl": "https://platzi.com/cursos/git-github/"
+        },
+        {
+          "name": "Fundamentos de Ingeniería de Software",
+          "courseUrl": "https://platzi.com/cursos/ingenieria/"
+        }
+      ]
+    },
+    {
+      "institution": "Colegio Mayor de Nuestra Señora",
+      "url": "https://www.colsenora.edu.co/",
+      "area": "Educación media",
+      "studyType": "Bachiller",
+      "startDate": "2009",
+      "endDate": "2020",
+      "score": "4.0",
+      "courses": []
+    }
+  ],
+  "awards": [
+    {
+      "title": "Award",
+      "date": "2014-11-01",
+      "awarder": "Company",
+      "summary": "There is no spoon."
+    }
+  ],
+  "certificates": [
+    {
+      "name": "Certificate",
+      "date": "2021-11-07",
+      "issuer": "Company",
+      "url": "https://certificate.com"
+    }
+  ],
+  "publications": [
+    {
+      "name": "Publication",
+      "publisher": "Company",
+      "releaseDate": "2014-10-01",
+      "url": "https://publication.com",
+      "summary": "Description…"
+    }
+  ],
   "skills": [
     {
       "name": "HTML",
       "level": "",
-      "keywords": [
-        "Desarrollo Web", "Front end"
-      ]
+      "keywords": ["Desarrollo Web", "Front end"]
     },
     {
       "name": "CSS",
       "level": "",
-      "keywords": [
-        "Desarrollo Web", "Front end", "Diseño Responsive"
-      ]
+      "keywords": ["Desarrollo Web", "Front end", "Diseño Responsive"]
     },
     {
       "name": "JavaScript",
       "level": "",
-      "keywords": [
-        "Desarrollo Web", "Front end"
-      ]
+      "keywords": ["Desarrollo Web", "Front end"]
     },
     {
       "name": "TypeScript",
       "level": "",
-      "keywords": [
-        "Desarrollo Web", "Frontend", "JavaScript Superset"
-      ]
+      "keywords": ["Desarrollo Web", "Frontend", "JavaScript Superset"]
     },
     {
       "name": "Git",
       "level": "",
-      "keywords": [
-        "Control de Versiones", "Colaboración", "Código Fuente"
-      ]
+      "keywords": ["Control de Versiones", "Colaboración", "Código Fuente"]
     },
     {
       "name": "React",
       "level": "",
-      "keywords": [
-        "Desarrollo Web", "Frontend", "JavaScript Library", "UI"
-      ]
+      "keywords": ["Desarrollo Web", "Frontend", "JavaScript Library", "UI"]
     },
     {
       "name": "Next.js",
       "level": "",
       "keywords": [
-        "Desarrollo Web", "Frontend", "React Framework", "SSR", "Static Generation"
+        "Desarrollo Web",
+        "Frontend",
+        "React Framework",
+        "SSR",
+        "Static Generation"
       ]
     },
     {
       "name": "GitHub",
       "level": "",
       "keywords": [
-        "Control de Versiones", "Colaboración", "Código Fuente", "Git"
+        "Control de Versiones",
+        "Colaboración",
+        "Código Fuente",
+        "Git"
       ]
     },
     {
       "name": "Tailwind",
       "level": "",
       "keywords": [
-        "Desarrollo Web", "Frontend", "CSS Framework", "Diseño Responsive"
+        "Desarrollo Web",
+        "Frontend",
+        "CSS Framework",
+        "Diseño Responsive"
       ]
     },
-    
+
     {
       "name": "Node",
       "level": "",
-      "keywords": [
-        "Desarrollo Web", "JavaScript", "Servidor"
-      ]
+      "keywords": ["Desarrollo Web", "JavaScript", "Servidor"]
     }
   ],
-  "languages": [{
-    "language": "Español",
-    "fluency": "Hablante nativo"
-  },
-  {
-    "language": "Inglés",
-    "fluency": "B2"
-  }],
-  "interests": [{
-    "name": "Wildlife",
-    "keywords": [
-      "Ferrets",
-      "Unicorns"
-    ]
-  }],
-  "references": [{
-    "name": "Jane Doe",
-    "reference": "Reference…"
-  }],
-  "projects": [{
-    "name": "Future World Shop",
-    "isActive": false,
-    "description": "Simulación de tienda virtual con estilo futurista",
-    "highlights": [],
-    "url": "https://future-world-shop-beryl.vercel.app/",
-    "githubUrl": "https://github.com/santiago0451/future-world-shop"
-  },
-  {
-    "name": "The Library",
-    "isActive": false,
-    "description": "Distintas páginas donde se evidencia el uso de una API",
-    "highlights": [],
-    "url": "https://the-library-delta.vercel.app/",
-    "githubUrl": "https://github.com/santiago0451/thelab/tree/main/library"
-  },
-  {
-    "name": "Pokedex",
-    "isActive": false,
-    "description": "Selecciona un Pokemón y aprende de él",
-    "highlights": [],
-    "url": "https://pokedex-ten-tan-41.vercel.app/",
-    "githubUrl": "https://github.com/santiago0451/thelab/tree/main/pokedex"
-  },
-  {
-    "name": "Gif Finder",
-    "isActive": false,
-    "description": "Buscador de gifs funcional, uso de API",
-    "highlights": [],
-    "url": "https://gif-finder-pied.vercel.app/",
-    "githubUrl": "https://github.com/santiago0451/gif-finder"
-  },
-  {
-    "name": "ToDo Machine",
-    "isActive": false,
-    "description": "Página para listar cosas por hacer",
-    "highlights": [],
-    "url": "https://todo-machine-wine.vercel.app/",
-    "githubUrl": "https://github.com/santiago0451/todo-machine"
-  }]
+  "languages": [
+    {
+      "language": "Español",
+      "fluency": "Hablante nativo"
+    },
+    {
+      "language": "Inglés",
+      "fluency": "B2"
+    }
+  ],
+  "interests": [
+    {
+      "name": "Wildlife",
+      "keywords": ["Ferrets", "Unicorns"]
+    }
+  ],
+  "references": [
+    {
+      "name": "Jane Doe",
+      "reference": "Reference…"
+    }
+  ],
+  "projects": [
+    {
+      "name": "Future World Shop",
+      "isActive": false,
+      "description": "Simulación de tienda virtual con estilo futurista",
+      "highlights": [],
+      "url": "https://future-world-shop-beryl.vercel.app/",
+      "githubUrl": "https://github.com/santiago0451/future-world-shop"
+    },
+    {
+      "name": "The Library",
+      "isActive": false,
+      "description": "Distintas páginas donde se evidencia el uso de una API",
+      "highlights": [],
+      "url": "https://the-library-two.vercel.app/",
+      "githubUrl": "https://github.com/santiago0451/thelab/tree/main/library"
+    },
+    {
+      "name": "Pokedex",
+      "isActive": false,
+      "description": "Selecciona un Pokemón y aprende de él",
+      "highlights": [],
+      "url": "https://pokedex-five-omega-64.vercel.app/",
+      "githubUrl": "https://github.com/santiago0451/thelab/tree/main/pokedex"
+    },
+    {
+      "name": "Gif Finder",
+      "isActive": false,
+      "description": "Buscador de gifs funcional, uso de API",
+      "highlights": [],
+      "url": "https://gif-finder-pied.vercel.app/",
+      "githubUrl": "https://github.com/santiago0451/gif-finder"
+    },
+    {
+      "name": "ToDo Machine",
+      "isActive": false,
+      "description": "Página para listar cosas por hacer",
+      "highlights": [],
+      "url": "https://todo-machine-wine.vercel.app/",
+      "githubUrl": "https://github.com/santiago0451/todo-machine"
+    }
+  ]
 }
