@@ -218,7 +218,7 @@
       "isActive": false,
       "description": "Simulación de tienda virtual con estilo futurista",
       "highlights": [],
-      "url": "https://future-world-shop-beryl.vercel.app/",
+      "url": "https://future-shop.vercel.app/",
       "githubUrl": "https://github.com/santiago0451/future-world-shop"
     },
     {
@@ -226,7 +226,7 @@
       "isActive": false,
       "description": "Distintas páginas donde se evidencia el uso de una API",
       "highlights": [],
-      "url": "https://the-library-two.vercel.app/",
+      "url": "https://the-api-library.vercel.app/",
       "githubUrl": "https://github.com/santiago0451/thelab/tree/main/library"
     },
     {
@@ -234,7 +234,7 @@
       "isActive": false,
       "description": "Selecciona un Pokemón y aprende de él",
       "highlights": [],
-      "url": "https://pokedex-five-omega-64.vercel.app/",
+      "url": "https://pokedex-sag.vercel.app/",
       "githubUrl": "https://github.com/santiago0451/thelab/tree/main/pokedex"
     },
     {
@@ -242,7 +242,7 @@
       "isActive": false,
       "description": "Buscador de gifs funcional, uso de API",
       "highlights": [],
-      "url": "https://gif-finder-pied.vercel.app/",
+      "url": "https://the-gif-finder.vercel.app/",
       "githubUrl": "https://github.com/santiago0451/gif-finder"
     },
     {
@@ -250,7 +250,7 @@
       "isActive": false,
       "description": "Página para listar cosas por hacer",
       "highlights": [],
-      "url": "https://todo-machine-wine.vercel.app/",
+      "url": "https://the-todo-machine.vercel.app/",
       "githubUrl": "https://github.com/santiago0451/todo-machine"
     }
   ]
