@@ -222,14 +222,6 @@
       "githubUrl": "https://github.com/santiago0451/future-world-shop"
     },
     {
-      "name": "The Library",
-      "isActive": false,
-      "description": "Distintas páginas donde se evidencia el uso de una API",
-      "highlights": [],
-      "url": "https://the-api-library.vercel.app/",
-      "githubUrl": "https://github.com/santiago0451/thelab/tree/main/library"
-    },
-    {
       "name": "Pokedex",
       "isActive": false,
       "description": "Selecciona un Pokemón y aprende de él",
@@ -252,6 +244,14 @@
       "highlights": [],
       "url": "https://the-todo-machine.vercel.app/",
       "githubUrl": "https://github.com/santiago0451/todo-machine"
+    },
+    {
+      "name": "The Library",
+      "isActive": false,
+      "description": "Distintas páginas donde se evidencia el uso de una API",
+      "highlights": [],
+      "url": "https://the-api-library.vercel.app/",
+      "githubUrl": "https://github.com/santiago0451/thelab/tree/main/library"
     }
   ]
 }
