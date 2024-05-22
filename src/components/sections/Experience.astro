@@ -1,7 +1,6 @@
 ---
-import Section from "@/components/Section.astro";
-
 import { work } from "@cv_english";
+import Section from "@/components/Section.astro";
 ---
 
 <Section title="Experience">
@@ -26,6 +25,13 @@ import { work } from "@cv_english";
               </header>
               <footer>
                 <p>{summary}</p>
+                <ul>
+                  {work.map(({ responsabilities }) => (
+                    <li>{responsabilities[0]}</li>
+                    <li>{responsabilities[1]}</li>
+                    <li>{responsabilities[2]}</li>
+                  ))}
+                </ul>
               </footer>
             </article>
           </li>
@@ -41,15 +47,15 @@ import { work } from "@cv_english";
     flex-direction: column;
     gap: 32px;
   }
-
+  
+  article a:hover {
+    text-decoration: underline;
+  }
+  
   article h3 {
     font-weight: 500;
     color: #111;
     margin-bottom: 4px;
-  }
-
-  article a:hover {
-    text-decoration: underline;
   }
 
   article h4 {
@@ -69,6 +75,23 @@ import { work } from "@cv_english";
     font-size: 0.85rem;
     min-width: 102px;
     cursor: default;
+  }
+
+  footer p {
+    margin-bottom: 4px;
+  }
+
+  footer ul {
+    list-style: square inside;
+    gap: 1rem;
+  }
+
+  footer li {
+    color: #666;
+    font-size: 0.9rem;
+    line-height: 1.5;
+    margin: 0;
+    text-wrap: pretty;
   }
 
   @media (width <= 700px) {
