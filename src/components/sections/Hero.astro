@@ -33,6 +33,10 @@ const printInfo = [email, linkedInUrl].filter(Boolean).join(" • ");
       </span>
       <footer class="print">
         {printInfo}
+        <p>
+          Please see this portfolio on its website, use this link:
+          https://santiagoag.vercel.app/
+        </p>
       </footer>
       <footer class="no-print">
         {
@@ -117,6 +121,14 @@ const printInfo = [email, linkedInUrl].filter(Boolean).join(" • ");
   footer {
     color: #555;
     font-size: 0.65rem;
+    display: flex;
+    gap: 4px;
+    margin-top: 8px;
+  }
+
+  footer p {
+    color: #555;
+    font-size: 1rem;
     display: flex;
     gap: 4px;
     margin-top: 8px;
