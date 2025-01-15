@@ -189,6 +189,12 @@
       "name": "Node",
       "level": "",
       "keywords": ["Web development", "JavaScript", "Server"]
+    },
+
+    {
+      "name": "Sql",
+      "level": "",
+      "keywords": ["Database", "Query", "Data"]
     }
   ],
   "languages": [
